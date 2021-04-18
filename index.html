@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FinHack Currency Converter</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel='icon' href='./Assets/Avatar.ico' type='image/x-icon'/ >
+    <script type="text/javascript" src="index.js"></script>
+</head>
+<body onload="getCurrencies()">
+    <header>
+        <div id="left">
+            <p>Currency Converter</p>
+        </div>
+    </header>
+
+    <div id="main">
+        <div id="nav">
+            <ul id="list">
+                <li>Convert that Cashhhhhh</li>
+            </ul>
+        </div>
+        <div id="section">
+            <h1 id="sectionHeading">Currency Converter<h1>
+            <div>
+                From <select id="from" name="from"></select> To <select id="to" name="to"></select> <input id="value"></input> <button onClick="fetchData()">Convert!</button>
+
+            </div>
+            <div id="content">
+                
+            </div>
+        </div>
+    </div>
+
+    <footer>
+        <div id="left">
+            &copy Adam 2021
+        </div>
+        
+        <div id="right">
+            
+        </div>
+
+        <div id="center">
+                
+        </div>
+    </footer>
+</body>
+</html>
